@@ -1,0 +1,121 @@
+<!-- THIS IS MY GOOD BOOK PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Cutive+Mono&family=News+Cycle&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+      
+    <div class="bookth">
+        <p>Book-a-Treehouse.</p>
+    </div>
+    <div class="navbar"> 
+      <ul id = "navigation">
+          <li id = "nav-opt"><a href="index.html">Home</a>
+          </li>
+          <li id = "nav-opt"><a href ="gallery.html">Gallery</a></li>
+
+          <li id = "nav-opt"><a href ="test.html">Book</a></li>
+      </ul>
+    </div>
+
+
+
+        <!-- main image -->
+    <img class = "main-img" src= "img/reflective.jpeg">
+
+    
+    
+    <!-- Check-in calendar (needs an ID) -->
+    
+    
+    
+    
+    
+    <!-- Guest Amount -->
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Guest Amount</button>
+      <div id="myDropdown" class="dropdown-content">
+        
+        <!-- why a href? -->
+        <a href= >1 </a>
+        <a href="#two">2 </a>
+        <a href="#three"> 3 </a>
+        <a href="#four"> 4 </a>
+        <a href="#five">5+</a>
+        
+      </div>
+    </div>
+    
+    <!-- Dropdown Info -->
+    <script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // This closes the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+    
+ <!-- <p><button class="button">Book</button></p> -->
+    
+    
+<!-- !-- how to get "alert" on "Book" button? --> 
+<!-- <button type="button" onclick="alert('Thanks for booking!')"> Book</button> -->
+    
+    
+    
+    <!-- Date check in cant coexist with guest drop down menu -->
+ 
+</script>
+</div>
+
+
+<div class ="check-in">
+<div id="checkin">
+<label for="start">Check-in:</label>
+<input type="date" id="start" name="trip-start"
+       value="2021-07-22"
+       min="2021-04-31" max="2022-04-31">
+</div>
+</div>
+  
+<div class= "check-out">
+<div id="checkout">
+  <label for="start">Check-out:</label>
+
+  <input type="date" id="start" name="trip-start"
+        value="2021-07-22"
+        min="2021-04-31" max="2012-04-31">
+</div> 
+</div>
+<button type="button" onclick="alert('Thanks for booking!')"> Book</button>
+ 
+<!-- FOOTER -->
+<div class="footer">
+  <ul>
+      <a class= "social-media" href="google.com"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a class= "social-media" href="google.com"><ion-icon name="mail-outline"></ion-icon></a>
+      <a class= "social-media" href="google.com"><ion-icon name="logo-twitter"></ion-icon></a>
+  </ul>
+      <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>   
+</body>
+</html>

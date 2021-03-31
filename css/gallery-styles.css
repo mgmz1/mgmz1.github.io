@@ -1,0 +1,139 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap"); */
+
+/* THIS IS MY FINAL GALLARY CSS */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+/* font-family: 'News Cycle', sans-serif; */
+font-family: 'Cutive Mono', monospace;
+}
+
+body {
+  background: #222;
+  color: whitesmoke;
+}
+#navigation{
+  /* background-color: rgba(0, 0, 0, 0.527); */
+  margin:0;
+  /* this moved navbar to the right */
+  padding: 15px 18px 15px 1200px;
+}
+/* FOOTER */
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.376);
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+  ion-icon{
+    font-size: 30px;
+    margin-left: 25px;
+    margin-right: 25px; 
+  }
+  
+  a{
+color: white;
+  }
+ion-icon:hover {
+    color:grey;
+}
+
+#nav-opt {
+  display: inline-block;
+  padding: 5px 15px;
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  color:grey;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+/* standard */
+p {
+  font-size: 40px;
+  margin-left: 50px;
+
+}
+
+.text {
+  order: -1;
+  flex-basis: 24rem;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  padding-right: 5rem;
+  font-size: 10px;
+  
+
+
+ 
+}
+
+.images {
+  position:relative;
+  /* interesting */
+  /* flex-basis originally 58rem */
+  flex-basis: 90rem;
+}
+
+/* image format */
+.images img {
+  position: relative;
+  width: 18.75rem;
+  height: 12.5rem;
+  /* border: 1px solid #111; */
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: 0.4s ease;
+  /* spaced out photos */
+  padding: 10px;
+}
+
+.images img:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  opacity: 1;
+
+
+  /* this makes image larger on hover */
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+/* .images img.zoom {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+  border: 1px solid transparent;
+  z-index: 99; */
+
+
+/* p {
+  margin-top: 500px;
+  padding: px;
+
+} */
+
