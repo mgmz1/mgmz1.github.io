@@ -15,11 +15,26 @@ body {
   background: #222;
   color: whitesmoke;
 }
+
+#nav-opt {
+  display: inline-block;
+  padding: 5px 15px;
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  color:grey;
+}
 #navigation{
   /* background-color: rgba(0, 0, 0, 0.527); */
   margin:0;
   /* this moved navbar to the right */
-  padding: 15px 18px 15px 1200px;
+  padding: 15px 18px 15px 1100px;
 }
 /* FOOTER */
 .footer {

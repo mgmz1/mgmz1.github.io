@@ -8,9 +8,22 @@ body {
     /* background-color: rgba(0, 0, 0, 0.527); */
     margin:0;
     /* this moved navbar to the right */
-    padding: 15px 18px 15px 1200px;
+    padding: 15px 18px 15px 1100px;
 }
-
+#nav-opt {
+  display: inline-block;
+  padding: 5px 15px;
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  color:grey;
+}
 
 #nav-opt {
     display: inline-block;
@@ -190,7 +203,7 @@ display: inline-block;
 }
 
 * FOOTER */
-.footer {
+.footer{
   position: fixed;
   left: 0;
   bottom: 0;
@@ -211,4 +224,8 @@ color: white;
   }
 ion-icon:hover {
     color:grey;
+}
+
+a.social-media{
+  text-align: center;
 }
